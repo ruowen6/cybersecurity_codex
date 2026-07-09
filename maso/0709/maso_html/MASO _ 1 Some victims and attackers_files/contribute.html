@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  .korostus {background-color: #EEEE88; width: 100%;}
+</style>
+
+  <script>
+  function openForm(target) {
+    if(target == 1) {
+      document.getElementById("contributeForm").style.display = "block";
+    }
+    else if(target == 2) {
+      document.getElementById("contributeForm-Q").style.display = "block";
+    }
+    else {
+      document.getElementById(target).style.display = "block";
+    }
+    // Hide all opening buttons.
+    x = document.getElementsByClassName("open-button");
+    L = x.length;
+    for (i = 0; i < L; i++) {
+        x[i].style.display = "none";
+    }
+    // Hide the rest of the opening line.
+    document.getElementById("open-line").style.display = "none";
+  }
+  function closeForm(target) {
+    if(target == 1) {
+      document.getElementById("contributeForm").style.display = "none"; }
+    else if(target == 2) {
+      document.getElementById("contributeForm-Q").style.display = "none"; }
+    else {
+      document.getElementById(target).style.display = "none"; }
+    // Show all opening buttons.
+    x = document.getElementsByClassName("open-button");
+      L = x.length;
+      for (i = 0; i < L; i++) {
+          x[i].style.display = "inline";
+      }
+    document.getElementById("open-line").style.display = "inline";
+  }
+  </script>
+ 
+<link rel="stylesheet" href="./contributestyles.css">
+</head>
+<body>
+
+<h4 class="korostus">Contributions and comments</h4>  <p id="open-line"> &nbsp;
+  
+    
+  <button class="open-button" id="CMDbutton" onclick="openForm(1)">Create - Modify - Delete &nbsp;<br> your <b>contribution</b>.</button> &nbsp; 
+
+  <button class="info-button" id="InfoButton">
+  <small>Numbers at the light bulb icons indicate number of reactions to <b>contributions</b>.</small><br>
+  Click on a bulb to give feedback to others:<br>
+  <b>Did a text contribute to enlighten you or not?</b></button>
+
+  <button class="open-button-Q" id="CMDbutton-Q" onclick="openForm(2)">Create - Modify - Delete &nbsp;<br> your <b>question</b> or comment.</button></p>
+
+    
+  <div class="popup-form" id="contributeForm">
+  <form action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post" class="form-container">
+    <p><small>To contribute, study the topics and MCQs on this page and write notes useful to yourself and other learners, related to the topic of the page <small>(not only to one distractor of an MCQ)</small>. If you already wrote and came back, you can modify the text. You can, but need not, use html, e.g. tags <tt>&lt;b&gt;, &lt;i&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;p&gt;</tt>. <b>Check</b> the results and insert closing tags if you forgot them. Include links using the format <tt>&lt;a href="URL"&gt;page title&lt;/a&gt;</tt>, to pages you found useful to learn just these topics, i.e. link to <i>detailed</i> URLs and not to complete sites. <b>Do not quote</b> without "..." and reference. You can delete your contribution by wiping the text and saving. Saving will reset teacher's current approval, but he will be notified. <b>Read instructions for the contents of this exercise from Harpo main page menu.</b> Note that the Harpo session expires if not used here or there for 2 hours.</small></p>
+
+    <textarea name="notes" cols="80" rows="4"></textarea>
+    <input type="hidden" name="authid" value="3364">
+    <input type="hidden" name="cntrid" value="0">
+    <input type="hidden" name="materid" value="704">
+    <input type="hidden" name="type" value="1">
+    <button type="submit" class="btn" name="save" value="ordinary">Save</button>
+    <button type="button" class="btn cancel" name="cancel" onclick="closeForm(1);">Cancel</button>
+    <small><small>You can also directly <button type="submit" class="btn personal" name="save" value="personal">save as a personal note only</button>, if you are not (yet, or any more) attempting a "great contribution". You can upgrade it later if you wish. The teacher will evaluate it only then.</small></small>
+  </form>
+</div>
+  
+<div class="popup-form" id="contributeForm-Q">
+<form action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post" class="form-container">
+    <p><small>Ask, or express opinions or even feelings, about the topics and MCQs on this page: Write or edit a brief text here. You can use similar formatting and linking as in contributions. You can delete your text by wiping and saving. Saving a text will reset its status and notify the teacher. <b>This is not an exercise</b> and will not bring (or take) any points. The main purpose is to let you communicate a little more with your peers. The teacher <i>may</i> write an answer but more likely he lets others do it as their contributions.</small></p>
+    <textarea name="notes" cols="80" rows="4"></textarea>
+    <input type="hidden" name="authid" value="3364">
+    <input type="hidden" name="cntrid" value="0">
+    <input type="hidden" name="materid" value="704">
+    <input type="hidden" name="type" value="2">
+    <button type="submit" class="btn" name="save" value="question">Save</button>
+    <button type="button" class="btn cancel" name="cancel" onclick="closeForm(2);">Cancel</button>
+  </form>
+</div>
+
+<script>
+      function vote(a) {
+      document.getElementById(a).submit();}
+    </script>
+<hr>
+ <b>7093</b> 2024-09-08 20:25:04 <small>(Modified 2024-10-14 15:49:53)</small> <br>
+
+<div class="QContainer"><div class="Qlabel">Question/<br>comment</div><div class="q-2">Social Engineering attack: manipulate people to give their confidential information. There are several methods:
+<ul>
+<li>Phishing attack: email to open link =&gt; steal credit card login credential</li>
+<li>Spear phishing: attack specific individual or group of people</li>
+<li>Whaling phishing: attack wealthy, powerful and prominent individuals</li>
+<li>SMS phishing, or smishing, is phishing through a text message.</li>
+<li>Voice phishing or vishing, is phishing that is conducted through phone calls</li>
+</ul>
+<a target="_blank" href="https://www.ibm.com/topics/social-engineering">Source</a>
+
+<p><b>Teacher's note:</b> The varied term phishing here is just one way of describing what a social engineer can do.</p> 
+
+<p></p></div></div>
+
+<hr>
+ <b>7349</b> 2023-10-16 12:19:27 <br>
+
+<div class="QContainer"><div class="Qlabel">Question/<br>comment</div><div class="q-2">A Trojan horse virus is a malware that pretends to be a useful program or file, but secretly harms your computer or steals your data. Trojans are generally spread by some form of social engineering such as phishing, Baiting, Scareware, Spear Phishing and Pretexting.
+Types of Trojan attack<ol>
+<li> RATs-Allow hackers to gain unauthorized access to a victim’s computer remotely
+</li><li> Keyloggers- Record keystrokes and capture sensitive information like passwords
+</li><li> Backdoor Trojans- Create hidden entry points, known as backdoors in a victim’s computer
+</li><li> Downloaders- Download additional malicious files or programs onto the victim’s computer
+
+
+<p><b>Teacher:</b> A nice note. Consider posting it as a contribution instead, and removing from this category.</p> <p></p></li></ol></div></div>
+
+<hr>
+ <b>Sigala</b> 2026-02-25 16:27:31 <small>(Modified 2026-02-25 16:30:22)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-725&#39;);">💡</button> 0 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-725&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-725" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="725">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-725" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="725">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><p><b>From attacker types to attack process: understanding social engineering as a workflow</b></p>
+
+<p>This page lists several kinds of attackers (script kiddies, identity thieves, social engineers, botnet operators, etc.). Instead of memorizing labels, it is useful to understand <i>how</i> certain attacks are carried out. Social engineering is not just phishing, it is a structured process that exploits human trust.</p>
+
+<p><b>A simplified workflow of a social engineering attack:</b></p>
+
+<ol>
+<li><b>Reconnaissance.</b> The attacker collects information about the target from public sources (social media, company websites, data leaks). Even small details (job role, recent projects, colleagues’ names) help to build credibility.</li>
+
+<li><b>Pretext creation and trust building.</b> The attacker invents a believable scenario (e.g., IT support, bank employee, supplier) and initiates contact. The goal is to appear legitimate, not to rush.</li>
+
+<li><b>Exploitation.</b> Once trust is established, the attacker persuades the victim to disclose information (passwords, codes) or perform an action (open an attachment, transfer money, approve login).</li>
+
+<li><b>Exit or persistence.</b> After success, the attacker may disappear or try to maintain access for later use.</li>
+</ol>
+
+<p>This perspective helps with the MCQs: social engineering is best described as influencing people to act against security policy, not just sending emails. Many techniques (phishing, baiting, pretexting, impersonation) fit inside this broader process.</p>
+
+<p>From a defender’s point of view, breaking <i>any</i> phase stops the attack chain. For example, verifying unusual requests via an independent communication channel (calling back using an official number) can prevent successful impersonation.</p>
+
+<p>Reference:  
+<a target="_blank" href="https://csrc.nist.gov/glossary/term/social_engineering">NIST Computer Security Resource Center – Social Engineering definition</a></p>
+
+<p>[CyBOK sec. 3.3]</p><p></p></div>
+<hr>
+ <b>7033</b> 2024-09-05 17:14:55 <small>(Modified 2024-09-05 17:17:14)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-404&#39;);">💡</button> 2 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-404&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-404" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="404">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-404" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="404">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1">Script Kiddies:- Script kiddies use pre-made tools and software to conduct cyber attacks without fully understanding the underlying code or techniques. These tools are often created by more skilled hackers and made easily accessible (Source ChatGpt)<p></p>
+
+<p>One of the best tools that you can begin with as script kiddies must be "Metasploit." For those who don't know what Metasploit is, it's a tool that can be used for so many things, from creating payloads to getting reverse shell (getting virtual control of the victim's device). Metasploit is launched via terminal in "Kali Linux" by following Command "msfconsole." To explore more about it, please refer to this https://docs.metasploit.com/.</p>
+
+<p>Social Engineering: Social Engineering Toolkit (SET)
+A framework for automating and launching social engineering attacks. It includes modules for phishing, spear-phishing, and other human-targeted exploits that script kiddies can use without extensive technical knowledge. This tool can be accessed via terminal of kali linux by the following command "setoolkit." To know more about this tool please refer to this https://www.kali.org/tools/set/. (Modified with the help of ChatGpt)</p><p></p></div>
+<hr>
+ <b>Ember</b> 2025-09-01 16:02:55 <small>(Modified 2025-09-01 16:05:39)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-493&#39;);">💡</button> 0 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-493&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-493" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="493">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-493" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="493">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><b>Social engineering</b> - to psychologically influence people into divulging secretive information or perform certain actions that may not be best for them.<p></p>
+<p>
+Some popular techniques:<br>
+- Pretexting: providing victims with certain information (e.g. name of a bank, correct phone number etc.) to establish trust<br>
+- Water holing: tracking the victim's web-surfing habits and hijacking their trusted websites with malicious links<br>
+- Scareware: bombarding the victim with fake threats (e.g. a virus) and urging them to take action (e.g. give login information, delete certain files etc.)<br>
+- Baiting: the malicious payload is installed onto physical media (e.g USB), left in conspicuous areas with engaging labels, relies on curiosity and greed; can also be in an online form, such as "free" music downloads<br>
+- Quid Pro Quo: attacker offers valuable service or item in exchange of sensitive information (e.g. providing "free" IT services, then asking for login information)<br>
+- Phishing: deceiving people via electronic communications (e.g email, SMS, QR code, voice, etc.)<br></p>
+
+Source: <a target="_blank" href="https://en.wikipedia.org/wiki/Social_engineering_(security)">Social engineering (security)</a>
+
+<p><b>Teacher's note:</b> This "SE" phenomenon is mentioned or described in several earlier contributions here. This is not bad, because SE is a very wide issue, and it is always good to increase your awareness of it. Here you can see various ways of SE, and someone can contribute the "workflow" of a social engineer.</p><p></p></div>
+<hr>
+ <b>7561</b> 2022-09-26 17:24:53 <button type="button" class="bright" onclick="vote(&#39;upvote-96&#39;);">💡</button> 3 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-96&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-96" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="96">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-96" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="96">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><p><b>Summertime.</b>
+Sometimes we just realize when the summertime arrives not because is sunny and warm but because children and teenagers are out of the leech of the school. Attacks increase during summer, and it is so easy nowadays with Kali or BlackArch operating systems and a “great biggie” list of tools and application, with these kiddies not kidding at all when start playing around causing devastation in the community. For the complete list check the link <a target="_blank" href="https://en.kali.tools/">kali.tools</a></p>
+
+<p><b>Teacher's note:</b> This is a nice example of a "literary" note. I compressed the layout a little, however, to allow space for other contributions. 
+ </p></div>
+<hr>
+ <b>V1malw</b> 2026-03-10 13:56:24 <small>(Modified 2026-03-19 14:45:30)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-736&#39;);">💡</button> 0 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-736&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-736" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="736">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-736" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="736">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><p>Identity theft in 2026 has shifted beyond simple password or credit card theft. The rise of <b>synthetic identity theft</b> is now a primary concern; criminals mix real data (like an ID number) with fake details to build entirely new personas for opening bank accounts or securing credit. Simultaneously, attackers are leveraging AI to forge documents and deepfakes that bypass verification systems. While traditional threats like phishing and malware persist, the scale of these new tactics is detailed in recent industry analyses, such as this breakdown of <a target="_blank" href="https://sumsub.com/blog/top-new-identity-fraud-trends/">top new identity fraud trends</a> from Sumsub.</p><p></p></div>
+<hr>
+ <b>7373</b> 2023-12-10 16:47:59 <small>(Modified 2023-12-10 16:53:10)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-314&#39;);">💡</button> 0 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-314&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-314" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="314">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-314" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="314">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><b> Script kiddies </b> : amateur hacker who uses existing tools and available codes to hack. His motivation is to impress people. <br> 
+
+<b> Identity theft </b> : occurs when someone uses another's personal identifying information, like their name, identifying number, or credit card number, without their permission, to commit fraud or other crimes <br> 
+<a href="https://www.youtube.com/watch?v=U_P23SqJaDc"> Source : A video you recommended.
+
+<p></p></a></div>
+<hr>
+ <b>Nickle</b> 2025-10-12 20:53:57 <small>(Modified 2025-10-12 20:54:48)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-640&#39;);">💡</button> 0 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-640&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-640" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="640">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-640" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="640">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1">Despite the attackers that the notes mention, section 16 of the Maps and Lists mentioned a kind of attacker called APT attackers, Advanced Persistent Threats (APTs). They are long-term, hidden cyberattacks planned by skilled groups, often with state support. Unlike script kiddies, APTs are highly organized, use advanced tools, and focus on specific targets without giving up easily. Their goal is usually political or economic, and methods include malware, supply chain attacks, and social engineering etc.<p></p>
+
+<p> Sources: Maps and Lists,  <a target="_blank" href="https://en.wikipedia.org/wiki/Advanced_persistent_threat"> Wikipedia. </a> </p>
+
+<p></p></div>
+<hr>
+ <b>7404</b> 2023-10-21 10:55:05 <small>(Modified 2023-10-21 11:15:58)</small> <button type="button" class="bright" onclick="vote(&#39;upvote-292&#39;);">💡</button> 2 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-292&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-292" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="292">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-292" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="292">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1">Definition of each digital entity term:
+<br><br>
+
+1. <b>Spam:</b> Spam refers to unsolicited or unwanted messages, typically sent in bulk, often for commercial purposes. These messages are commonly found in email, text messages, or on social media platforms and can include advertisements, fraudulent offers, or malicious links. Ref: <a target="_blank" href="https://www.cisco.com/c/en/us/products/security/spam-vs-phishing.html">Spam vs. Phishing: What Is the Difference? - Cisco</a> 
+<br><br>
+2. <b>Hoax:</b> A hoax is a deliberately false or deceptive statement or piece of information, often created to mislead or trick people. Hoaxes can take various forms, including fake news, rumors, or fabricated stories, and are spread with the intention of causing confusion or provoking a reaction. Ref: <a target="_blank" href="https://en.wikipedia.org/wiki/Hoax">Hoax - Wikipedia</a> 
+<br><br>
+3. <b>Ransomware:</b> Ransomware is a type of malicious software designed to block access to a computer system or files until a sum of money, or ransom, is paid. It can be distributed through various means, such as email attachments or compromised websites, and once activated, it can encrypt files or lock users out of their systems, demanding payment for the decryption key. Ref: <a target="_blank" href="https://en.wikipedia.org/wiki/Ransomware">Ransomware - Wikipedia</a> 
+<br><br>
+4. <b>Meme Virus:</b> A meme virus is a term that can refer to a viral internet meme that spreads rapidly across online platforms, often taking the form of an image, video, or text. While these memes can be harmless and entertaining, some may carry misleading or false information, contributing to the spread of misinformation. Ref: Could not find a proper reference.
+<br><br>
+5. <b>Nigerian Letter:</b> A Nigerian letter, also known as a "419 scam" or advance-fee fraud, is a type of fraudulent scheme where an individual or entity seeks assistance in transferring a large sum of money out of a country in exchange for a share of the funds. These scams often involve requests for personal information or upfront payments with the promise of a larger financial reward, which never materializes. Ref: <a target="_blank" href="https://en.wikipedia.org/wiki/Advance-fee_scam">Advance-fee scam - Wikipedia</a> 
+<br><br>
+6. <b>Troll:</b> In the context of the internet, a troll is someone who deliberately provokes or harasses others online by posting inflammatory, offensive, or disruptive messages. Trolls often seek to incite emotional responses and create discord in online communities, forums, or social media platforms. Ref: <a target="_blank" href="https://restthecase.com/knowledge-bank/what-is-cyber-trolling">What is Internet/Cyber Trolling &amp; How to deal with it? (restthecase.com)</a> 
+<br><br>
+Disclaimer: The text above has been generated and modified using ChatGPT AI and references has been searched and checked by me, included them for more reading.
+<br><br>
+<b>Conclusion</b> From the above explanation the types and digital entities that are ‘mainly user spread entities’ and ‘spread mainly by forwarding action of people’ could be Spam and meme virus.
+
+ <p><b>Teacher's note:</b> This is lengthy but nice. The motivation for the length is the focus which is sufficiently narrow.</p> <p></p></div>
+<hr>
+ <b>7597</b> 2023-02-05 23:31:32 <button type="button" class="bright" onclick="vote(&#39;upvote-253&#39;);">💡</button> 1 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-253&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-253" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="253">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-253" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="253">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1">"‘Trolling’ (also known as cyber-bullying) is an Internet slang term. It refers to people who deliberately use highly offensive, indecent, threatening or false language to upset or offend another person on the Internet." 
+
+As trolls believe they can hide behind the "username", trolling has increased in recent years. 
+
+<a target="_blank" href="https://www.devon-cornwall.police.uk/support-and-guidance/your-digital-safety/what-is-trolling">What is trolling (cyber-bullying)</a>
+
+<p><b>Teacher's note:</b> There are also trolls that do not target a specific person but try to spread disinformation among an audience.</p><p></p></div>
+<hr>
+ <b>jak</b> 2022-02-03 21:10:32 <button type="button" class="bright" onclick="vote(&#39;upvote-20&#39;);">💡</button> 1 &nbsp;   
+      <button type="button" onclick="vote(&#39;downvote-20&#39;);"><span class="gray">💡</span></button> 0<form id="upvote-20" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="20">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="1"></form>  
+        <form id="downvote-20" action="https://tie-sec.rd.tuni.fi/harpo/contribute.php?id=704" method="post">
+        <input type="hidden" name="contribid" value="20">
+        <input type="hidden" name="ownasked" value="0">
+        <input type="hidden" name="owndone" value="0"><input type="hidden" name="vote" value="-1"></form><br>
+<div class="c_1"><small>This is teacher's example contribution.</small><br>
+
+This page only involves a small subset of cyber attackers and, like most other texts, does not give a proper account on victims - because they can be virtually anyone. Section 16 of Maps &amp; Lists, however, has a concept map that describes several kinds of attackers. There are many analogues to harmful insects. It might be good to know, that the <b>tick</b> (or <i>hard tick</i>, Ixodidae) is often said to be the most dangerous animal in Finland. It is quite unofficially related to insider threats in the map - as a "special case" of a horse-fly, which is the class of increasingly more common "blood-sucking" attackers who are searching more or less direct economic benefit. The cyber attackers waging info or hybrid war may cause bigger damages, but they are fortunately not so common - except in the news for instance about Ukraine.        <p></p></div>
+<hr>
+ <b>Cyber</b> 2026-06-16 23:02:44 <br>
+<div class="c_0">Question 4 mentioned a hoax. According to the Kaspersky IT Encyclopedia, a hoax is false information about viruses or other cybersecurity threats used to exploit users' urgency and fear for malicious purposes, often via email or social media. The hoax might not contain malicious code, but it can trick users into forwarding the message to others and distract people from the real threats. Source: Kaspersky IT Encyclopedia<p></p></div>
+</body></html>

@@ -1,0 +1,60 @@
+/* */
+a {
+	font-weight: bold;}
+a:link.togo, a:visited.togo { /* 1 no work done regardless of visits, settable (default) */
+	color: rgb(0, 26, 143);
+	text-decoration: underline;}
+a:link.gone, a:visited.gone { /* 2 did some work on it and that is enough, no big need to check later */
+	color: blue;
+	text-decoration: none;}
+a:link.goin, a:visited.goin { /* 3 started and want to do more here  */
+	color: darkgreen;
+	text-decoration: underline;}
+a:link.back, a:visited.back { /* 4 worked on it probably enough but good to check again before exams */
+	color: darkgreen;
+	text-decoration: none;}
+a:link.done, a:visited.done { /* 5 easy, did not really need work, not worth checking again here */
+	color: gray;
+	text-decoration: none;}
+a:link.nogo, a:visited.nogo { /* 6 not for me, I'll do without if possible (not interested or too demanding) */
+	color: dimgray;
+	text-decoration: line-through;}
+
+/* For the text frame that shows a status input area for logged in users */	
+
+div.textstub {
+  position: relative;
+  width: 60%;
+  padding:0px 40% 0px 0px;
+  border: 1px solid #73AD21;
+} 
+
+div.status {
+  display: visible; 
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 35%;
+  border: 1px solid #73AD21;
+}
+
+/* For the status input buttons. POSSIBLY TO COMBINE WITH THE ABOVE */
+
+label.togo { /* no work done regardless of visits, settable (default) */
+	color: darkblue;
+	text-decoration: underline;}
+label.gone { /* did some work on it and that is enough, no big need to check later */
+	color: blue;
+	text-decoration: none;}
+label.goin { /* started and want to do more here  */
+	color: darkgreen;
+	text-decoration: underline;}
+label.back { /* worked on it probably enough but good to check again before exams */
+	color: darkgreen;
+	text-decoration: none;}
+label.done { /* easy, did not really need work, not worth checking again here */
+	color: gray; 					/* oli: darkslategray; 28.11.2025 asti */
+	text-decoration: none;}
+label.nogo { /* not for me, I'll do without if possible (not interested or too demanding) */
+	color: dimgray;
+	text-decoration: line-through;}

@@ -1,0 +1,195 @@
+/* Colouring for the voting buttons */
+
+.bright {
+  background-color:#a0a0a0;
+  filter: brightness(110%); }
+.gray {
+  filter: grayscale(100%) brightness(60%); }
+
+/* Hide and show buttons and forms in the frame/window for contributions */
+
+/* Button used to open the question input */
+.open-button-Q {
+  float: left;
+  padding: 2px 8px;
+  border: 1;
+  cursor: pointer;
+  opacity: 0.8;
+  top: 12px;
+  left: 50px;
+}
+
+/* Button for displaying instructions */
+.info-button {
+  background-color: white;
+  padding: 2px 8px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  top: 12px;
+  left: 50px;
+}
+
+/* Button used to open the contribution input */
+.open-button {
+  background-color: #555;
+  color: white;
+  float: right;
+  padding: 2px 8px;
+  border: 2;
+  cursor: pointer;
+  opacity: 0.8;
+  top: 12px;
+  left: 50px;
+}
+
+/* The popup form - hidden by default */
+.popup-form {
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  padding: 3px;
+  background-color: white;
+}
+
+/* Input fields */
+.form-container textarea, .form-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=textarea]:focus, .form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Style for the submit button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  display: inline; 
+  margin-bottom:3px;
+  opacity: 0.8;
+}
+
+/* Add to the cancel button */
+.form-container .cancel {
+  background-color: rgb(224, 195, 116);
+}
+
+/* Add to the personal save button WAS also:   font-size: 0.8em; */
+.form-container .personal {
+  background-color: rgb(134, 182, 207);
+}
+
+/* Hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Styles for all student texts */
+/********************************/
+
+.q-arch {
+  left: 50px;
+  color: White;
+  background-color: Green;
+}
+.q-0 {
+  position: relative;
+  left: 50px;
+  color: Red;
+  background-color: LightGreen;
+}
+.q-0-700 {
+  color: Red;
+  background-color: LightGreen;
+}
+
+.q-1 {
+  position: relative;
+  left: 50px;
+  color: DarkRed;
+  background-color: LightGreen;
+}
+.q-1-700 {
+  color: DarkRed;
+  background-color: LightGreen;
+}
+
+.q-2 {
+  position: relative;
+  left: 50px;
+  color: Black;
+  background-color: #DDEDD1;
+}
+
+.q-2-700 {
+  color: Black;
+  background-color: #DDEDD1;
+}
+
+.q-3 {
+  position: relative;
+  left: 50px;
+  color: Black;
+  background-color: LightBlue;
+}
+
+.q-3-700{
+  color: Black;
+  background-color: LightBlue;
+}
+
+.c-arch {
+  color: White;
+  background-color: DarkGray;
+}
+
+.c-selfnote {
+  color: Black;
+  background-color: #D2E2E2; /* Light gray (with blue) */
+}
+
+.c-teachnote {
+  color: Black;
+  background-color: #E7E9EB; /* Light gray */
+}
+
+.c_-1 {
+  color: Gray;
+}
+
+.c_0 {
+  background-color: #edffd8; /* very light green*/
+}
+
+.c_1 {
+  color: Black;
+}
+
+.QContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Qlabel {
+  font-size: small;
+  font-weight: bold;
+  color: LightGray;
+  width: 50px;
+}

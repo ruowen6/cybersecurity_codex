@@ -1,0 +1,203 @@
+body {
+	background-color : #DDDDDD;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	scrollbar-3dlight-color : #E9E9E9;
+	scrollbar-arrow-color : #282828;
+	scrollbar-base-color : #535353;
+	scrollbar-darkshadow-color : #5F5F5F;
+	scrollbar-face-color : #C4C4E4;
+	scrollbar-highlight-color : #373737;
+	scrollbar-shadow-color : Black;
+	scrollbar-track-color : #5D5D5D;
+	padding: 1px;
+	margin: 0px;
+}
+
+body.luku {
+	background-color : White;
+}
+
+frame {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.aanestys {
+	border : 1px solid #333333;
+	background-color: White;
+	float: right;
+	text-align: left;
+	padding: 3px 3px 3px 3px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	font-size : x-small;
+}
+
+div.sisalto {
+	background-color: White;
+	border : 1px solid Black;
+	text-align: left;
+	padding: 5px 5px 25px 5px;
+	width: 100%;
+}
+
+div.sivuloppu {
+	font-size : x-small;
+	text-align: right;
+	padding: 5px 5px 5px 5px;	
+}
+
+div.sivupohja {
+	background-color: #BBBBDD;
+	text-align: left;
+	border : 1px solid Black;	
+	padding: 1px 5px 1px 5px;
+	margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; 
+}
+
+div.esikatselu {
+	text-align: left;
+	padding: 0px 3px 3px 3px;
+	margin-top: 1px; 
+}
+
+form {
+	background-color: #EEEEEE;
+	text-align: left;
+	border : 1px solid #DDDDDD;	
+	padding: 5px;
+	margin: 0px 20px 0px 20px;
+}
+
+table,td,tr,div,form,p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	text-align : left;
+}
+
+pre {
+	font-family: Courier New, monospace;
+}
+
+table.arviointi {
+	background-color: #FFFFE1;
+	border: 1px solid #000000;
+	margin-left: 20px;
+	width: 85%;
+}
+
+td.a, td.b {
+	padding: 15px 1px 5px 20px;	
+}
+
+td.a, td.materiaalitieto_a, td.oheistieto_a {
+	background-color: #FCFCFC;
+}
+
+td.b, td.materiaalitieto_b, td.oheistieto_b {
+	background-color: #F4F4F4;
+}
+
+td.materiaalitieto_a, td.materiaalitieto_b {
+	padding-left: 45px;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+
+td.oheistieto_a, td.oheistieto_b {
+	font-size : x-small;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+}
+
+td.tyhjarivi {
+	padding: 1px 1px 25px 25px;	
+}
+
+td.arivi {
+	font-size: x-small;
+}
+
+.apainike {
+	font-size: xx-small;
+}
+
+.ohje {
+	background-color: #FFFFF5;
+	border: 1px dotted #444444;
+	font-size: x-small;
+	padding: 2px;
+	width: 70%;
+	margin: 15px 5px 25px 0px;
+}
+
+.virhe {
+	color : #FF0000;
+	background-color : transparent;
+	font-weight : bold;
+}
+
+.ok {
+	color : #008800;
+	background-color : transparent;
+	font-weight : bold;
+}
+
+.eikaytossa {
+	color : #888888;
+	background-color : transparent;
+	text-decoration: line-through;
+}
+
+.korostus {
+	background-color: #EEEE88;
+	width: 100%;
+}
+
+a:link, a:hover, a:visited, a:active {
+	text-decoration : underline;
+}
+
+a:active {
+	color: #FF0000;
+	background-color: #EEEE88;	
+}
+
+a:hover {
+	color: #FF0000;
+}
+
+a:link.tulostus, a:visited.tulostus {
+	text-decoration : none;
+}
+
+ul.sanasto { margin: 0px 0px 10px 30px; }
+
+li.puurivi {
+	margin: 0px 0px 0px -18px;
+}
+
+li.tehtavarivi {
+	margin: 0px 0px 15px 0px;
+}
+
+.puu {
+	font-size: x-small;
+	border: 1px solid #000000;	
+	background-color: #EEEEEE;
+	padding: 3px;
+}
+
+div.salanimi {
+	font-family: Courier;
+	background-color: #F8F8EE;
+	border : 2px solid #BBEEBB;
+	text-align: center;
+	padding: 15px 5px 15px 5px;
+	margin: 20px;
+	width: 30%;
+	font-weight : bold;
+}
