@@ -11,7 +11,16 @@ The term script kiddie is used for certain types of attackers. What is typical o
 1. They cannot be held liable because they are minors.
 1. Youth and incompetence, which is why their attacks are not very dangerous.
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 ## Q2
 Attackers that are called script kiddies are characterized by
@@ -20,7 +29,16 @@ Attackers that are called script kiddies are characterized by
 1. underage and immature morality.
 1. installing malicious software on the machines of several other users from which the attack continues automatically.
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 ## Q3
 Identity theft
@@ -29,7 +47,16 @@ Identity theft
 1. is never a theft of identity alone; it also involves causing some loss or other disadvantage to the owner.
 1. can happen accidentally, i.e. someone can end up stealing someone else's identity without intending to do so.
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 
 
@@ -40,7 +67,16 @@ There are many digitals entities that spread mainly by the forwarding action of 
 1. 2
 1. 1
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 ## Q5
 All of the following attacks have some social aspect, but which description gives the best coverage for the concept of social engineering?
@@ -49,7 +85,16 @@ All of the following attacks have some social aspect, but which description give
 1. Getting physically close and even familiar to people in order to see what they input as credentials to information systems.
 1. Exercising the art of influencing people to act against their security policy.
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 ## Q6
 Successful impersonation means that
@@ -58,7 +103,16 @@ Successful impersonation means that
 1. a new role has been assigned to a user.
 1. somebody/something has been cheated to act as if he/it is in contact with someone else than the attacker.
 ### 思路和正确答案
-我选了？
+我选了____<br>
+理由如下<br>
+排除：<br>
+1 错在____。<br>
+2 错在____。<br>
+3 错在____。<br>
+4 错在____。
+
+不确定：<br>
+我不确定____和____的区别。
 
 ## 答案
 
